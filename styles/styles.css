@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-title {
+  background-color: #5a5e4e;
+  width: 100%;
+  height: 100px;
+}
+
+.title {
+  font-family: "Rubik Burned", system-ui;
+  font-size: clamp(1.4rem, 3.2vw, 4rem);
+  text-align: center;
+  padding-top: 2em;
+  color: #221f19;
+  letter-spacing: 2px;
+  animation-name: title;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes title {
+  0% {
+    color: #221f19;
+  }
+  1% {
+    color: #bd8e5f;
+  }
+  30% {
+    letter-spacing: 5px;
+  }
+  85% {
+    letter-spacing: 2px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .title {
+    font-size: 80%;
+  }
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #5a5e4e;
+  padding-top: 8%;
+}
+
+.info-section {
+  padding-top: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.text-textarea {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea {
+  width: 80%;
+  height: 250px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  border: 1px solid #b99470;
+  border-radius: 5px;
+  color: #fefae0;
+  outline: none;
+}
+.message-textarea {
+  width: 80%;
+  text-align: center;
+  margin-bottom: 2em;
+  color: #fefae0;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+::placeholder {
+  color: #fefae07a;
+}
+
+.encrypt-button {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 10%;
+  gap: 15px;
+}
+@media screen and (max-width: 419px) {
+  .encrypt-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.button {
+  padding: 10px;
+  width: 14em;
+  text-decoration: none;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid #b99470;
+  border-radius: 5px;
+  color: #fefae0;
+}
+.button:hover {
+  background-color: #7f8667;
+  color: #fefae0;
+}
+
+.key-encrypt > input {
+  padding: 10px;
+  width: 14em;
+  border: none;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid #b99470;
+  border-radius: 5px;
+  color: #fefae0;
+  gap: 10px;
+  outline: none;
+}
+.info-card {
+  width: 294px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid #b99470;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: 35px;
+  margin-bottom: 4px;
+}
+
+.info-decrypt {
+  width: 284px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid #b99470;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: 35px;
+  margin-bottom: 4px;
+}
+
+@media screen and (max-width: 795px) {
+  .info-card,
+  .info-decrypt {
+    display: none;
+  }
+}
+
+.img-questions {
+  width: 80%;
+  height: 30vh;
+}
+.title-2 {
+  color: #949987;
+  font-size: 18px;
+  text-align: center;
+}
+/* #4b503d; */
+
+.info-decrypt-2,
+.text-2 {
+  visibility: hidden;
+}
+@media screen and (max-width: 794px) {
+  .info-decrypt-2,
+  .text-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    margin-bottom: 2px;
+    gap: 8px;
+    visibility: visible;
+  }
+}
+
+.text,
+.text-2 {
+  color: #fefae0;
+  text-align: center;
+  font-size: 15px;
+}
+
+.text-footer {
+  color: #4b503d;
+  text-align: center;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background-color: #b99470;
+  font-size: 14px;
+}
+i {
+  color: #fefae0;
+  margin-left: 8px;
+  font-size: 15px;
+}
+.btn {
+  padding: 9px;
+  width: 12em;
+  text-decoration: none;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid #b99470;
+  border-radius: 5px;
+  color: #fefae0;
+}
+a {
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
+#error {
+  width: 60%;
+  padding: 8px;
+  background-color: #fefae085;
+  color: #441414;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+.mensage-error {
+  text-align: center;
+}

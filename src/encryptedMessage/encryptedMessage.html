@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../../styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.3.0/crypto-js.js"></script>
+    <script src="../cryptography/cryptography.js" defer></script>
+
+    <title>Mensagem Criptografada</title>
+    <meta
+      http-equiv="refresh"
+      content="50; URL='../home_cryptoGuard/home_cryptoGuard.html'"
+    />
+  </head>
+  <body>
+    <header class="header-title">
+      <h1 class="title">Mensagem Criptografada</h1>
+    </header>
+    <main class="container">
+      <section class="info-section">
+        <div class="text-textarea">
+          <textarea
+            class="message-textarea"
+            autofocus="true"
+            style="resize: none"
+            name="mensagem"
+            id="result"
+            rows="4"
+            cols="50"
+          ></textarea>
+          <div class="encrypt-button">
+            <a
+              class="btn"
+              href="../home_cryptoGuard/home_cryptoGuard.html"
+              onclick="deletetextarea()"
+              >Voltar
+            </a>
+
+            <button
+              type="radio"
+              class="button"
+              id="copy"
+              onclick="copyToClipboard()"
+            >
+              Copiar Criptografia
+            </button>
+          </div>
+        </div>
+        <div class="info-decrypt">
+          <img
+            class="img-questions"
+            src="/assets/img/img-descriptografar.png"
+            alt="Imagem questionando"
+          />
+          <h3 class="title-2">Deseja Descriptografar sua Mensagem?</h3>
+          <div>
+            <button class="button" onclick="decrypt()">Descriptografar</button>
+          </div>
+        </div>
+      </section>
+      <div class="info-decrypt-2">
+        <h3 class="title-2">Deseja Descriptografar sua Mensagem?</h3>
+        <div>
+          <button class="button" onclick="decrypt()">Descriptografar</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="text-footer">Ellen Santos 2024 Todos direitos reservados ©</p>
+      <nav>
+        <a href="https://www.linkedin.com/in/ellentsantos/">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/Ellen-TSantos"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </nav>
+    </footer>
+  </body>
+</html>
