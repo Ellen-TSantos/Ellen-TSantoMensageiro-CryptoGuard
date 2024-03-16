@@ -23,9 +23,15 @@ The use of this library allows secure and reliable encryption of messages, guara
 ## Compatibility
 CryptoGuard Messenger is designed to be used on multiple devices, providing flexibility to users.  
 
+
 ## Usage Guide
 1. Type your message in the designated text area.
 2. Enter the corresponding password in the appropriate box.
 3. Click the "Encrypt" button to protect the message.
 4. Access the "Encrypted Message" page to view the protected message.
 5. To decrypt, just click on "Decrypt" and your message is now decrypted.
+
+  ## 
+
+<img   height="400" width="750"   src="https://github.com/Ellen-TSantos/fashion_show_website/assets/122386488/29c79ee3-d263-4a56-9b6e-3332db02ef6c">
+
