@@ -33,5 +33,5 @@ CryptoGuard Messenger is designed to be used on multiple devices, providing flex
 
   ## 
 
-<img   height="400" width="750"   src="https://github.com/Ellen-TSantos/fashion_show_website/assets/122386488/29c79ee3-d263-4a56-9b6e-3332db02ef6c">
+<img   height="400" width="750"   src="https://github.com/Ellen-TSantos/mensageiro-CryptoGuard-JS/assets/122386488/ac0cd67a-f00f-4ca7-9c1a-eaf27097a169">
 
